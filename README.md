@@ -1,35 +1,35 @@
-Introduction:
+## Introduction:
 
 Provide a brief introduction to the chatbot and its purpose. Mention that the chatbot is designed to provide recommendations for the Intel-ECom software.
 Getting Started:
 
 Outline the steps to run the chatbot locally, including any dependencies that need to be installed.
 Provide instructions for setting up the environment, such as installing Python and any required packages.
-Usage:
+##Usage:
 
 Describe how to interact with the chatbot once it's running.
 Explain the prompts or commands that users can input to receive recommendations.
-Example:
+##Example:
 
 Provide a sample conversation or dialogue to demonstrate how the chatbot works.
 Include both user inputs and chatbot responses to illustrate the interaction flow.
-Dependencies:
+##Dependencies:
 
 List any dependencies or libraries required to run the chatbot.
 Provide installation instructions for each dependency.
-License:
+##License:
 
 Specify the license under which the chatbot is distributed.
 Include any copyright or licensing information for the code and resources used in the chatbot.
-Contributing:
+##Contributing:
 
 Explain how users can contribute to the chatbot project, such as by reporting bugs or suggesting improvements.
 Provide guidelines for submitting contributions, if applicable.
-Acknowledgements:
+##Acknowledgements:
 
 Thank any individuals or organizations that contributed to the development of the chatbot.
 Mention any resources or libraries used in the project and give credit to their creators.
-Contact:
+##Contact:
 
 Provide contact information or links to relevant communication channels, such as a GitHub repository or issue tracker, where users can ask questions or provide feedback.
 Additional Information:

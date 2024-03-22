@@ -1,0 +1,149 @@
+/* Styling for the main section */
+.main-section {
+    padding: 20px;
+    /* Adds padding to the main section for spacing */
+}
+
+/* Styling for clothes and accessories sections */
+.clothes-section,
+.accessories-section {
+    margin-bottom: 40px;
+    /* Increased margin for better spacing between sections */
+}
+
+/* Styling for heading 3 in clothes and accessories sections */
+.clothes-section h3,
+.accessories-section h3 {
+    margin-bottom: 20px;
+    /* Increased margin for better spacing between heading and content */
+}
+
+/* Styling for grid layout of images */
+.clothes-images,
+.accessories-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Responsive grid layout */
+    grid-gap: 20px;
+    /* Increased gap between images */
+}
+
+/* Styling for images within clothes and accessories sections */
+.clothes-images img,
+.accessories-images img {
+    width: 100%;
+    /* Makes images fill their container */
+    height: auto;
+    /* Maintains aspect ratio */
+    border-radius: 10px;
+    /* Adds rounded corners to images */
+    transition: transform 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+/* Hover effect for images */
+.clothes-images img:hover,
+.accessories-images img:hover {
+    transform: scale(1.05);
+    /* Slightly scale up image on hover */
+}
+
+/* Active effect for images */
+.clothes-images img:active,
+.accessories-images img:active {
+    transform: scale(0.95);
+    /* Slightly scale down image on click */
+}
+
+/* Styling for headings */
+h2 {
+    font-size: 24px;
+    /* Sets font size for h2 */
+    font-weight: bold;
+    /* Makes h2 text bold */
+    color: #333;
+    /* Sets color for h2 text */
+    margin-bottom: 20px;
+    /* Adds margin at the bottom for spacing */
+}
+
+h3 {
+    font-size: 20px;
+    /* Sets font size for h3 */
+    font-weight: bold;
+    /* Makes h3 text bold */
+    color: #140f0f;
+    /* Sets color for h3 text */
+    margin-bottom: 10px;
+    /* Adds margin at the bottom for spacing */
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 16px;
+    /* Sets font size for paragraphs */
+    line-height: 1.5;
+    /* Sets line height for paragraphs */
+    color: #0f0b0b;
+    /* Sets color for paragraphs */
+    margin-bottom: 20px;
+    /* Adds margin at the bottom for spacing */
+    text-align: left;
+    /* Aligns text to the left */
+}
+
+/* Styling for images */
+img {
+    width: 200px;
+    /* Sets a fixed width for images */
+    height: auto;
+    /* Allows images to maintain aspect ratio */
+    border-radius: 10px;
+    /* Adds rounded corners to images */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition on hover and active */
+}
+
+/* Hover effect for images */
+img:hover {
+    transform: scale(1.05);
+    /* Slightly scale up image on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    /* Adds box shadow on hover */
+}
+
+/* Active effect for images */
+img:active {
+    transform: scale(0.95);
+    /* Slightly scale down image on click */
+}
+
+/* Use Google Fonts for an attractive font */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Sets font family for the entire document */
+}
+
+/* Styling for the main section */
+/* Add your existing CSS styles here */
+
+/* Styling for the big button */
+.big-button {
+    display: block;
+    width: 200px;
+    height: 60px;
+    margin: 40px auto;
+    background-color: #ff4500;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the big button */
+.big-button:hover {
+    background-color: #ff6347;
+}
